@@ -24,13 +24,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2MY-ZR-AdM">
-                                <rect key="frame" x="154" y="560.5" width="106" height="21"/>
+                                <rect key="frame" x="154" y="552.5" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVL-V1-CFU">
-                                <rect key="frame" x="175" y="647.5" width="64" height="64"/>
+                                <rect key="frame" x="175" y="581.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="6rN-Pw-KeY"/>
                                     <constraint firstAttribute="width" constant="64" id="iCc-yL-9A2"/>
@@ -45,8 +45,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jVL-V1-CFU" firstAttribute="centerX" secondItem="2MY-ZR-AdM" secondAttribute="centerX" id="2dG-1k-0uW"/>
-                            <constraint firstItem="jVL-V1-CFU" firstAttribute="top" secondItem="2MY-ZR-AdM" secondAttribute="bottom" multiplier="1.1" constant="8" symbolic="YES" id="32C-XB-N7a"/>
-                            <constraint firstItem="2MY-ZR-AdM" firstAttribute="top" secondItem="EGs-zf-Rhj" secondAttribute="bottom" constant="8" symbolic="YES" id="4tD-UH-0eG"/>
+                            <constraint firstItem="jVL-V1-CFU" firstAttribute="top" secondItem="2MY-ZR-AdM" secondAttribute="bottom" constant="8" symbolic="YES" id="32C-XB-N7a"/>
+                            <constraint firstItem="2MY-ZR-AdM" firstAttribute="top" secondItem="EGs-zf-Rhj" secondAttribute="bottom" id="4tD-UH-0eG"/>
                             <constraint firstItem="2MY-ZR-AdM" firstAttribute="centerX" secondItem="EGs-zf-Rhj" secondAttribute="centerX" id="TqP-iO-CDo"/>
                             <constraint firstItem="EGs-zf-Rhj" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="UH2-ow-v6A"/>
                             <constraint firstItem="EGs-zf-Rhj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="a19-mx-LoO"/>
