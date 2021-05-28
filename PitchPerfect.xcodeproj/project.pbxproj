@@ -15,6 +15,7 @@
 		FFC46BC8265EE8530013BC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC46BC6265EE8530013BC76 /* LaunchScreen.storyboard */; };
 		FFC46BD1266036BE0013BC76 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC46BCF266036BE0013BC76 /* PlaySoundsViewController.swift */; };
 		FFC46BD2266036BE0013BC76 /* PlaySoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC46BD0266036BE0013BC76 /* PlaySoundsViewController.xib */; };
+		FFC46BD426613FB50013BC76 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC46BD326613FB50013BC76 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FFC46BC9265EE8530013BC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFC46BCF266036BE0013BC76 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		FFC46BD0266036BE0013BC76 /* PlaySoundsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaySoundsViewController.xib; sourceTree = "<group>"; };
+		FFC46BD326613FB50013BC76 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				FFC46BC9265EE8530013BC76 /* Info.plist */,
 				FFC46BCF266036BE0013BC76 /* PlaySoundsViewController.swift */,
 				FFC46BD0266036BE0013BC76 /* PlaySoundsViewController.xib */,
+				FFC46BD326613FB50013BC76 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC46BD426613FB50013BC76 /* PlaySoundsViewController+Audio.swift in Sources */,
 				FFC46BC0265EE84E0013BC76 /* RecordSoundsViewController.swift in Sources */,
 				FFC46BBC265EE84E0013BC76 /* AppDelegate.swift in Sources */,
 				FFC46BD1266036BE0013BC76 /* PlaySoundsViewController.swift in Sources */,
